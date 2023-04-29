@@ -1,9 +1,6 @@
 import {
-  createBrowserRouter,
   createHashRouter,
-  Link,
   RouterProvider,
-  To,
 } from "react-router-dom";
 import React from "react";
 

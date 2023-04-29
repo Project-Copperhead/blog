@@ -11,7 +11,6 @@ const BlogNav = () => {
       try{
         const blogItems = await fetch(`https://raw.githubusercontent.com/y04nqt/portfolio-data/main/nav-data.json`);
         const data = await blogItems.json();
-        console.log(data)
         setBlogs(data);
         return data;
       }catch(err){
@@ -30,7 +29,7 @@ const BlogNav = () => {
             name: string;
           }) => (
             <div key={item.name}>
-              <Link to={`/${item?.link}`}>{item?.name ?? ''}</Link>
+              <Link to={`/${item.link}`}>{item?.name}</Link>
             </div>
           )
         )}

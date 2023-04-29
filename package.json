@@ -1,6 +1,6 @@
 {
   "name": "gh-blog-page",
-  "homepage": "https://y04nqt.github.io/blog",
+  "homepage": "https://y04nqt.github.io/blog/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
